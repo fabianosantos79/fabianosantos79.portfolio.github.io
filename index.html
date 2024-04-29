@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta
+      name="description"
+      content="Site com o portfólio do desenvolvedor Fabiano SSantos"
+    />
+    <meta name="author" content="" />
+    <title>Fabiano SSantos</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/logo_fs.ico" />
+    <!-- Custom Google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap icons-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <!-- Icones externos -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp"
+      crossorigin="anonymous"
+    />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+  </head>
+  <body class="d-flex flex-column h-100" data-bs-theme="light">
+    <main class="flex-shrink-0">
+      <!-- Navigation-->
+      <nav class="navbar navbar-expand-lg py-3 fs-5 navegacao">
+        <div class="container px-5">
+          <a
+            class="navbar-brand d-flex justify-content-center align-items-center gap-4"
+            href="index.html"
+            ><img src="./assets/logo_fs.png" class="logo" alt="" /><span
+              class="fw-bolder fs-2 nav-link colorLink"
+              >Fabiano SSantos</span
+            ></a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
+              <li class="nav-item">
+                <a class="nav-link colorLink" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link colorLink" href="#quem-sou">Quem sou</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link colorLink" href="#projetos">Projetos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link colorLink" href="#contatos">Contatos</a>
+              </li>
+              <li class="nav-item hidden"><a class="nav-link"></a></li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <div class="form-check form-switch">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      role="switch"
+                      id="flexSwitchCheckDefault"
+                      onclick="mudarTema()"
+                    />
+                    <label
+                      class="form-check-label colorLink labelIconeTema"
+                      for="flexSwitchCheckDefault"
+                      >Dark</label
+                    >
+                  </div></a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- Header-->
+      <header class="py-3">
+        <div class="container px-5 pb-5">
+          <div class="row gx-5 align-items-center">
+            <div class="col-xxl-5">
+              <!-- Header text content-->
+              <div class="text-center text-xxl-start inicio">
+                <h1 class="display-5 fw-bolder">
+                  <span class="text-gradient d-inline">Bem-vindo</span>
+                </h1>
+                <div class="fs-3 fw-light text-muted mb-3">
+                  Olá, meu nome é Fabiano sou desenvolvedor web, conheça aqui um
+                  pouco sobre mim e alguns dos meus projetos.
+                </div>
+                <div
+                  class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-3"
+                >
+                  <a
+                    class="btn btn-primary btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder"
+                    href="./assets/curriculo_fabiano.pdf"
+                    target="_blank"
+                    >Currículo</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-xxl-7 foto">
+              <!-- Header profile picture-->
+              <div class="d-flex justify-content-center mt-5 mt-xxl-0">
+                <div class="profile bg-gradient-primary-to-secondary">
+                  <img
+                    class="profile-img"
+                    src="assets/fabiano.png"
+                    alt="Foto do Fabiano"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- About Section-->
+      <section id="quem-sou">
+        <div class="container px-5">
+          <div class="row gx-5 justify-content-center">
+            <div class="col-xxl-12">
+              <div class="my-5 quem-sou">
+                <h2 class="display-5 fw-bolder">
+                  <span class="text-gradient d-inline">Quem sou</span>
+                </h2>
+                <p class="lead fw-light mb-4">
+                  Graduado em Análise e Desenvolvimento de Sistemas e cursando
+                  pós-graduação em Engenharia de Software, consigo atuar em
+                  todas as fases do projeto (Backend e Frontend) seguindo
+                  metodologias ágeis e padrões de projeto, tenho conhecimentos
+                  nas tecnologias abaixo:
+                </p>
+
+                <div class="card-body p-5 skills">
+                  <!-- Professional skills list-->
+                  <div class="mb-5">
+                    <div class="d-flex align-items-center mb-4">
+                      <!-- <div
+                        class="feature bg-primary bg-gradient-primary text-white rounded-3 me-3"
+                      >
+                        <i class="bi bi-tools"></i>
+                      </div> -->
+                      <h3 class="text-primary fw-bolder mb-0">Backend</h3>
+                    </div>
+                    <div class="row row-cols-1 row-cols-md-6 mb-4">
+                      <div class="col mb-4 mb-md-0">
+                        <div
+                          class="d-flex align-items-center azul border-azul rounded-4 p-3 h-100"
+                        >
+                          Node
+                        </div>
+                      </div>
+                      <div class="col mb-4 mb-md-0">
+                        <div
+                          class="d-flex align-items-center azul border-azul rounded-4 p-3 h-100"
+                        >
+                          Java
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div
+                          class="d-flex align-items-center azul border-azul rounded-4 p-3 h-100"
+                        >
+                          Mysql
+                        </div>
+                      </div>
+
+                      <div class="col mb-4 mb-md-0">
+                        <div
+                          class="d-flex align-items-center azul border-azul rounded-4 p-3 h-100"
+                        >
+                          Oracle
+                        </div>
+                      </div>
+                      <div class="col mb-4 mb-md-0">
+                        <div
+                          class="d-flex align-items-center azul border-azul rounded-4 p-3 h-100"
+                        >
+                          Postgree
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div
+                          class="d-flex align-items-center azul border-azul rounded-4 p-3 h-100"
+                        >
+                          Modelagem
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Languages list-->
+                  <div class="mb-0">
+                    <div class="d-flex align-items-center mb-4">
+                      <!-- <div class="feature bg-rosa text-white rounded-3 me-3">
+                        <i class="bi bi-tools"></i>
+                      </div> -->
+                      <h3 class="rosa fw-bolder mb-0">Frontend</h3>
+                    </div>
+                    <div class="row row-cols-1 row-cols-md-6 mb-4">
+                      <div class="col mb-4 mb-md-0">
+                        <div
+                          class="d-flex align-items-center rosa border-rosa rounded-4 p-3 h-100"
+                        >
+                          HTML
+                        </div>
+                      </div>
+                      <div class="col mb-4 mb-md-0">
+                        <div
+                          class="d-flex align-items-center rosa border-rosa rounded-4 p-3 h-100"
+                        >
+                          CSS
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div
+                          class="d-flex align-items-center rosa border-rosa rounded-4 p-3 h-100"
+                        >
+                          JavaScript
+                        </div>
+                      </div>
+
+                      <div class="col mb-4 mb-md-0">
+                        <div
+                          class="d-flex align-items-center rosa border-rosa rounded-4 p-3 h-100"
+                        >
+                          React
+                        </div>
+                      </div>
+                      <div class="col mb-4 mb-md-0">
+                        <div
+                          class="d-flex align-items-center rosa border-rosa rounded-4 p-3 h-100"
+                        >
+                          Vue
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div
+                          class="d-flex align-items-center rosa border-rosa rounded-4 p-3 h-100"
+                        >
+                          Bootstrap
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <section>
+                  <!-- Skillset Card-->
+                  <div class="card shadow border-0 rounded-4 mb-5"></div>
+                </section>
+                <!-- <div class="d-flex justify-content-start fs-2 gap-4">
+                  <a class="text-gradient" href="#!"
+                    ><i class="bi bi-linkedin"></i
+                  ></a>
+                  <a class="text-gradient" href="#!"
+                    ><i class="bi bi-github"></i
+                  ></a>
+                </div> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects Section-->
+      <section id="projetos">
+        <div class="container px-5 mb-5 projetos-portfolio">
+          <div class="text-start mb-5">
+            <h1 class="display-5 fw-bolder mb-0">
+              <span class="text-gradient d-inline">Projetos</span>
+            </h1>
+          </div>
+          <div class="row gx-5 justify-content-center">
+            <div class="col-lg-11 col-xl-9 col-xxl-12">
+              <!-- Project Card 1 -->
+
+              <div class="px-3 py-3 mb-4 shadow projeto1">
+                <div class="row g-0">
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h4 class="card-title">Fakeflix</h4>
+                      <p class="card-text">
+                        Projeto simulando o frontend do Netflix, criei em React
+                        e estilizei com CSS Modules, os dados foram consumidos
+                        da API OMDB a aplicação faz uma nova requisição a cada
+                        atualização da página, trazendo novos dados existe um
+                        efeito ao passar o mouse nas imagens dos filmes.
+                      </p>
+                      <p class="card-text">
+                        Confira abaixo os códigos do projeto no Github e o link
+                        da aplicação online.
+                      </p>
+                      <ul class="list-group list-group-horizontal mb-2">
+                        <li class="list-group-item">HTML</li>
+                        <li class="list-group-item">CSS</li>
+                        <li class="list-group-item">Javascript</li>
+                        <li class="list-group-item">React</li>
+                      </ul>
+                      <a
+                        class="btn btn-sm text-gradient"
+                        href="https://github.com/fabianosantos79/clone-netflix"
+                        target="_blank"
+                        ><i class="bi bi-github" style="font-size: 1.9rem"></i
+                      ></a>
+                      <div
+                        class="badge bg-gradient-primary-to-secondary text-white py-2 px-2"
+                      >
+                        <div class="text-uppercase">
+                          <a
+                            href="https://clone-netflix-ashy.vercel.app/"
+                            target="_blank"
+                            class="link-botao"
+                            >Projeto Online</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <img
+                      class="absolute inset-0 w-full h-full object-cover"
+                      src="assets/fakeflix.jpg"
+                      alt="..."
+                      width="100%"
+                      max-width="400"
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <!-- End Project Card 1 -->
+
+              <!-- Project Card 2 -->
+
+              <div class="px-3 py-3 mb-4 shadow projeto2">
+                <div class="row g-0">
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h4 class="card-title">Portfólio</h4>
+                      <p class="card-text">
+                        Landing Page para minha apresentação pessoal criado com
+                        o Bootstrap a aplicaçao é totalmente responsiva e ainda
+                        tem a possibilidade de alterar o tema para Dark,
+                        utilizei algumas animações com uma biblioteca externa, o
+                        objetivo aqui foi manter um layout clean e objetivo a
+                        logomarca foi criada também por mim.
+                      </p>
+                      <p class="card-text">
+                        Confira abaixo os códigos do projeto no Github e o link
+                        da aplicação online.
+                      </p>
+                      <ul class="list-group list-group-horizontal mb-2">
+                        <li class="list-group-item">HTML</li>
+                        <li class="list-group-item">CSS</li>
+                        <li class="list-group-item">Javascript</li>
+                        <li class="list-group-item">Bootstrap</li>
+                      </ul>
+                      <a
+                        class="btn btn-sm text-gradient"
+                        href="https://github.com/fabianosantos79/NovoPortfolio"
+                        target="_blank"
+                        ><i class="bi bi-github" style="font-size: 1.9rem"></i
+                      ></a>
+                      <div
+                        class="badge bg-gradient-primary-to-secondary text-white py-2 px-2"
+                      >
+                        <div class="text-uppercase">
+                          <a href="http://www.globo.com" class="link-botao"
+                            >Projeto Online</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <img
+                      class="absolute inset-0 w-full h-full object-cover"
+                      src="assets/projeto_portfolio.png"
+                      alt="..."
+                      width="100%"
+                      max-width="400"
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <!-- End Project Card 2 -->
+
+              <!-- Project Card 3 -->
+
+              <div class="px-3 py-3 mb-4 shadow projeto3">
+                <div class="row g-0">
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h4 class="card-title">Temperatura</h4>
+                      <p class="card-text">
+                        Aplicação web onde temos a possibilidade de consultar a
+                        temperatura de qualquer cidade do mundo, utilizei a API
+                        Weather para consultar os dados de temperatura e a
+                        imagem de background também muda de acordo com a cidade
+                        pesquisa, exibindo um ponto do município, essa
+                        funcionalidade vem da API Unsplash.
+                      </p>
+                      <p class="card-text">
+                        Confira abaixo os códigos do projeto no Github e o link
+                        da aplicação online.
+                      </p>
+                      <ul class="list-group list-group-horizontal mb-2">
+                        <li class="list-group-item">HTML</li>
+                        <li class="list-group-item">CSS</li>
+                        <li class="list-group-item">Javascript</li>
+                        <li class="list-group-item">Next Js</li>
+                        <li class="list-group-item">Tailwind</li>
+                      </ul>
+                      <a
+                        class="btn btn-sm text-gradient"
+                        href="https://github.com/fabianosantos79/projeto-app-tempo"
+                        target="_blank"
+                        ><i class="bi bi-github" style="font-size: 1.9rem"></i
+                      ></a>
+                      <div
+                        class="badge bg-gradient-primary-to-secondary text-white py-2 px-2"
+                      >
+                        <div class="text-uppercase">
+                          <a
+                            href="https://projeto-app-tempo.vercel.app/"
+                            target="_blank"
+                            class="link-botao"
+                            >Projeto Online</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <img
+                      class="absolute inset-0 w-full h-full object-cover"
+                      src="assets/app_tempo.png"
+                      alt="..."
+                      width="100%"
+                      max-width="400"
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <!-- End Project Card 3 -->
+
+              <!-- Project Card 4 -->
+
+              <!-- <div class="px-3 py-3 mb-4 shadow projeto4">
+                <div class="row g-0">
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h4 class="card-title">Card title</h4>
+                      <p class="card-text">
+                        This is a wider card with supporting text below as a
+                        natural lead-in to additional content. This content is a
+                        little bit longer.This is a wider card with supporting
+                        text below as a natural lead-in to additional content. .
+                        This content is a little bit longer.This is a wider card
+                        with supporting text below as a natural lead-in to
+                        additional content./p>
+                      </p>
+
+                      <ul class="list-group list-group-horizontal mb-2">
+                        <li class="list-group-item">HTML</li>
+                        <li class="list-group-item">CSS</li>
+                        <li class="list-group-item">Javascript</li>
+                      </ul>
+                      <a class="btn btn-sm text-gradient" href="resume.html"
+                        ><i class="bi bi-github" style="font-size: 1.9rem"></i
+                      ></a>
+                      <div
+                        class="badge bg-gradient-primary-to-secondary text-white py-2 px-2"
+                      >
+                        <div class="text-uppercase">
+                          <a href="#" class="link-botao">Projeto Online</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <svg
+                      class="bd-placeholder-img img-fluid rounded-end"
+                      width="100%"
+                      height="290"
+                      xmlns="http://www.w3.org/2000/svg"
+                      role="img"
+                      aria-label="Placeholder: Image"
+                      preserveAspectRatio="xMidYMid slice"
+                      focusable="false"
+                    >
+                      <title>Placeholder</title>
+                      <rect width="100%" height="100%" fill="#868e96"></rect>
+                      <text x="50%" y="50%" fill="#dee2e6" dy=".3em">
+                        Image
+                      </text>
+                    </svg>
+                  </div>
+                </div>
+              </div> -->
+
+              <!-- End Project Card 4 -->
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Contact-->
+      <section
+        class="container-fluid py-5 px-5 bg-gradient-primary-to-secondary text-white justify-content-center d-flex"
+      >
+        <div class="container row py-3 text-white px-5" id="contatos">
+          <div class="text-start">
+            <h2 class="display-4 fw-bolder mb-4">Contatos</h2>
+          </div>
+          <div class="col-sm-3 mb-3 mb-sm-0 text-center">
+            <div class="card card-project card-project-body">
+              <div class="card-body card-project-body">
+                <a href="mailto:fabiano.santos79@yahoo.com.br" target="_blank">
+                  <i
+                    class="bi bi-envelope"
+                    style="font-size: 3rem; color: #ffffff"
+                  ></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-3 mb-3 mb-sm-0 text-center">
+            <div class="card card-project card-project-body">
+              <div class="card-body card-project-body">
+                <a
+                  href="https://api.whatsapp.com/send?phone=5511964805636"
+                  target="_blank"
+                >
+                  <i
+                    class="bi bi-whatsapp"
+                    style="font-size: 3rem; color: #ffffff"
+                  ></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-3 mb-3 mb-sm-0 text-center">
+            <div class="card card-project card-project-body">
+              <div class="card-body card-project-body">
+                <a
+                  href="https://www.linkedin.com/in/fabiano-da-silva-santos-25925a22/"
+                  target="_blank"
+                  ><i
+                    class="bi bi-linkedin"
+                    style="font-size: 3rem; color: #ffffff"
+                  ></i
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-3 mb-3 mb-sm-0 text-center">
+            <div class="card card-project card-project-body">
+              <div class="card-body card-project-body">
+                <a href="https://github.com/fabianosantos79" target="_blank"
+                  ><i
+                    class="bi bi-github"
+                    style="font-size: 3rem; color: #ffffff"
+                  ></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- Footer-->
+    <footer class="py-4 mt-auto" id="contatos">
+      <div class="container px-5">
+        <div
+          class="row align-items-center justify-content-between flex-column flex-sm-row"
+        >
+          <div class="d-flex justify-content-center fs-5">
+            <div class="small m-0">
+              Copyright &copy; Todos os direitos reservados 2024 - Fabiano
+              SSantos.
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      function mudarTema() {
+        var element = document.body;
+        var iconeLabel = document.querySelector(".labelIconeTema");
+        element.dataset.bsTheme =
+          element.dataset.bsTheme === "light" ? "dark" : "light";
+
+        if (element.dataset.bsTheme === "light") {
+          iconeLabel.innerHTML = "Dark";
+        } else {
+          iconeLabel.innerHTML = "Light";
+        }
+      }
+    </script>
+    <script>
+      const inputCheckbox = document.getElementById("flexSwitchCheckDefault");
+      if (inputCheckbox.checked) {
+        alert("clicou");
+      } else {
+      }
+    </script>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Icones externos -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+      ScrollReveal().reveal(".navegacao", { delay: 200 });
+      ScrollReveal().reveal(".foto", { delay: 300 });
+      ScrollReveal().reveal(".inicio", { delay: 300 });
+      ScrollReveal().reveal(".quem-sou", { delay: 500 });
+      ScrollReveal().reveal(".skills", { delay: 500 });
+      ScrollReveal().reveal(".projetos-portfolio");
+      ScrollReveal().reveal(".projeto1", { delay: 550 });
+      ScrollReveal().reveal(".projeto2", { delay: 550 });
+      ScrollReveal().reveal(".projeto3", { delay: 550 });
+      ScrollReveal().reveal(".projeto4", { delay: 550 });
+      ScrollReveal().reveal("#contatos", { delay: 500 });
+    </script>
+    <script type="text/javascript" src="js/vanilla-tilt.js"></script>
+    <!-- Core theme JS-->
+    <script type="text/javascript" src="js/scripts.js"></script>
+  </body>
+</html>
